@@ -15,7 +15,7 @@
 ]]
 
 highChestOnly = true
-godsChalicSniper = false
+godsChalicSniper = true
 repeat task.wait(4) until game:IsLoaded()
 local PlaceID = game.PlaceId
 local AllIDs = {}
