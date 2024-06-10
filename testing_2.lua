@@ -4851,8 +4851,11 @@ else
 end
 while cac() do 
 	AttackNoCD()
-end
-
+end)
+            end
+        end
+    end)
+end)
     local ToggleBringMob = Tabs.Setting:AddToggle("ToggleBringMob", {Title = "Enabled Bring Mob / Magnet",Description = "Gom Quái", Default = true })
     ToggleBringMob:OnChanged(function(Value)
         _G.BringMob = Value
