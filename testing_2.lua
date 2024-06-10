@@ -4843,15 +4843,7 @@ function AttackNoCD()
         end
     end
 end
-local cac
-if SuperFastMode then 
-	cac=task.wait
-else
-	cac=wait
-end
-while cac() do 
-	AttackNoCD()
-end
+
 
     local ToggleBringMob = Tabs.Setting:AddToggle("ToggleBringMob", {Title = "Enabled Bring Mob / Magnet",Description = "Gom Quái", Default = true })
     ToggleBringMob:OnChanged(function(Value)
