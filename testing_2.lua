@@ -4780,7 +4780,7 @@ local ToggleFast = Tabs.Setting:AddToggle("ToggleFast", {Title = "Enabled Fast A
 ToggleFast:OnChanged(function(Value)
     _G.FastNe = Value
 end)
-local SuperFastMode = true -- Change to true if you want Super Super Super Fast attack (Like instant kill) but it will make the game kick you more than normal mode
+if SuperFastMode = true -- Change to true if you want Super Super Super Fast attack (Like instant kill) but it will make the game kick you more than normal mode
 
 local plr = game.Players.LocalPlayer
 
