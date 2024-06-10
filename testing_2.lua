@@ -4780,13 +4780,6 @@ local ToggleFast = Tabs.Setting:AddToggle("ToggleFast", {Title = "Enabled Fast A
 ToggleFast:OnChanged(function(Value)
     _G.FastNe = Value
 end)
-if SuperFastMode = true -- Change to true if you want Super Super Super Fast attack (Like instant kill) but it will make the game kick you more than normal mode
-
-local plr = game.Players.LocalPlayer
-
-local CbFw = debug.getupvalues(require(plr.PlayerScripts.CombatFramework))
-local CbFw2 = CbFw[2]
-
 function GetCurrentBlade() 
     local p13 = CbFw2.activeController
     local ret = p13.blades[1]
